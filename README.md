@@ -31,8 +31,8 @@ stroke/
 │── README.md             # Project documentation  
 
 # 🚀 Installation & Setup
-git clone <your-repo-url>
-cd stroke
+git clone https://github.com/Neettin/Cerebral-Stroke-Prediction-System.git
+cd Cerebral-Stroke-Prediction-System/stroke
 
 # Install Dependencies
 pip install -r requirements.txt
