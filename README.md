@@ -2,16 +2,16 @@
 This project predicts the likelihood of a patient having a cerebral stroke using machine learning. It uses an imbalanced healthcare dataset sourced from Kaggle and provides a simple web interface for predictions.
 
 # 📊 Dataset
--- Source: Cerebral Stroke Prediction (Imbalanced Dataset) - Kaggle
--- Target Variable: stroke → 1 (stroke) / 0 (no stroke)
-- Features:
--- Age, Hypertension, Heart Disease, BMI, Avg Glucose Level, Smoking Status, etc.
--- Since the dataset is imbalanced (very few stroke cases), special handling was done during training.
+## Source: Cerebral Stroke Prediction (Imbalanced Dataset) - Kaggle
+- Target Variable: stroke → 1 (stroke) / 0 (no stroke)
+## Features:
+- Age, Hypertension, Heart Disease, BMI, Avg Glucose Level, Smoking Status, etc.
+- Since the dataset is imbalanced (very few stroke cases), special handling was done during training.
 
 # 🏥 Problem Statement
-Type: Binary Classification
-Goal: Predict if a patient is at risk of stroke
-Challenge: Highly imbalanced dataset.
+- Type: Binary Classification
+- Goal: Predict if a patient is at risk of stroke
+- Challenge: Highly imbalanced dataset.
 
 # ✅ Solution
 1. Data Preprocessing: Handle missing values, encode categorical features, scale numerical features
