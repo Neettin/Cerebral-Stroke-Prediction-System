@@ -4,6 +4,7 @@ This project predicts the likelihood of a patient having a cerebral stroke using
 # 📊 Dataset
 ## Source: Cerebral Stroke Prediction (Imbalanced Dataset) - Kaggle
 - Target Variable: stroke → 1 (stroke) / 0 (no stroke)
+- https://www.kaggle.com/datasets/shashwatwork/cerebral-stroke-predictionimbalaced-dataset
 ## Features:
 - Age, Hypertension, Heart Disease, BMI, Avg Glucose Level, Smoking Status, etc.
 - Since the dataset is imbalanced (very few stroke cases), special handling was done during training.
